@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { removeFilter, clearFilter } from "../features/filterSlice";
-import removeIcon from "../assets/Images/icon-remove.svg";
+import removeIcon from "/icon-remove.svg";
 
 const Filters = () => {
   const filters = useSelector((state) => state.filter.value.filterElement);
