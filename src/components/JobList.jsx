@@ -18,7 +18,7 @@ const JobList = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:8000/jobs")
+    fetch("https://backendjson-9t5g.onrender.com/jobs")
       .then((res) => {
         if (!res.ok) {
           throw Error("Couldn't fetch data");
